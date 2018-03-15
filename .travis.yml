@@ -11,4 +11,4 @@ install:
 script:
   - echo "running"
 after_success:
-  - yarn lh --score=90 https://jsbe-demo.firebaseapp.com/
+  - yarn lh --score=90 https://jsbe-demo.firebaseapp.com/index-no-manifest.html
