@@ -1,0 +1,10 @@
+{
+  "hosting": {
+    "public": "airhorner.com",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ]
+  }
+}
