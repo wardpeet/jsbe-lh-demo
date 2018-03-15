@@ -3,8 +3,14 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "script": {
+    "lh": "lighthouse-ci"
+  },
   "dependencies": {
     "lighthouse": "^2.9.1",
     "lighthouse-security": "^0.6.0"
+  },
+  "devDependencies": {
+    "lighthouse-ci": "https://github.com/ebidel/lighthouse-ci"
   }
 }
