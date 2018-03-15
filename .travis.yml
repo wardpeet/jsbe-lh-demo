@@ -1,0 +1,14 @@
+sudo: required
+language: node_js
+node_js: 8
+dist: trusty
+cache:
+  yarn: true
+  directories:
+    - node_modules
+install:
+  - yarn
+script:
+  - echo "running"
+after_success:
+  - yarn lh --score=98 https://jsbe-demo.firebaseapp.com/index-no-manifest.html
