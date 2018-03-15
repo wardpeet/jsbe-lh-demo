@@ -11,4 +11,4 @@ install:
 script:
   - echo "running"
 after_success:
-  - yarn lh https://m.nieuwsblad.be
+  - yarn lh --score=90 https://jsbe-demo.firebaseapp.com/
